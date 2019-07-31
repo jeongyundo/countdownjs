@@ -30,6 +30,7 @@ class App extends Component {
     this.setState({
       movies
     })
+    console.log("aa",movies)
   }
 
   _callApi = () => {
