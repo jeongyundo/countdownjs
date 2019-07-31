@@ -9,6 +9,7 @@
     
   </head>
   <body>
+    
     <div class="Title">Time Left</div>
     <div class="App">
         <div class="Content"> 
@@ -72,33 +73,6 @@
                 </div>
             </div>
     </div>
-
-    <script>
-            var today = new Date();
-            var a = new Date(2019,8,7,14);
-            var b = new Date(2019,8,1,14);
-            var c = new Date(2019,9,26,20);
-            var d = new Date(2019,8,12,9);
-            a1=parseInt((a-today)/60000);
-            a2=parseInt(a1/60);
-            a3=parseInt(a2/24);
-            b1=parseInt((b-today)/60000);
-            b2=parseInt(b1/60);
-            b3=parseInt(b2/24);
-            c1=parseInt((c-today)/60000);
-            c2=parseInt(c1/60);
-            c3=parseInt(c2/24);
-            d1=parseInt((d-today)/60000);
-            d2=parseInt(d1/60);
-            d3=parseInt(d2/24);
-            console.log(a)
-            console.log(today)
-            console.log((a-today)/(86400000))
-            document.getElementById("demo1").innerHTML = a3-31+"일"+a2%24+"시간"+a1%60+"분";
-            document.getElementById("demo2").innerHTML = b3-31+"일"+b2%24+"시간"+b1%60+"분";
-            document.getElementById("demo3").innerHTML = c3-31+"일"+c2%24+"시간"+c1%60+"분";
-            document.getElementById("demo4").innerHTML = d3-31+"일"+d2%24+"시간"+d1%60+"분";
-
-            </script>
+    <script src="practice.js"></script>
   </body>
 </html>
