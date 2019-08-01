@@ -13,7 +13,7 @@ function setDate(needs) {
 }
 
 var a = {"year": 2019, "month": 8, "days": 7, "hours": 14, "minutes": 00};
-var b = {"year": 2019, "month": 8, "days": 1, "hours": 14, "minutes": 00};
+var b = {"year": 2019, "month": 8, "days": 6, "hours": 14, "minutes": 00};
 var c = {"year": 2019, "month": 9, "days": 26, "hours": 20, "minutes": 00};
 var d = {"year": 2019, "month": 8, "days": 12, "hours": 9, "minutes": 00};
 
